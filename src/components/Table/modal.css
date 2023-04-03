@@ -1,0 +1,90 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(200, 200, 200);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  width: 500px;
+  height: 500px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.modalContainer .title {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.titleCloseBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.modalContainer .modalbody {
+  flex: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+.modalContainer .modalfooter {
+  flex: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer .footer button {
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cornflowerblue;
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#cancelBtn {
+  background-color: crimson;
+}
+
+/* {
+                selectedUser && (
+                    <div className='modalBackground' >
+                        < div className='modalContainer'>
+                            <button className='titleCloseBtn' onClick={() => setSelectedUser(null)}>x</button>
+                            <div className='modaltitle'>
+                                <h1>Are You sure?</h1>
+                            </div>
+                            <div className='modalbody'>
+                                <p>Do you want to delete {selectedUser.name}?</p>
+                            </div>
+                            <div className='modalfooter'>
+                                <button className='cancelBtn' onClick={handleDelete}>Yes</button>
+                                <button onClick={() => setSelectedUser(null)}>No</button>
+                            </div>
+                        </div>
+                    </div >
+                )
+            } */

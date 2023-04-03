@@ -1,0 +1,62 @@
+/* * {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  } */
+  /* body {
+    background-color: #f2f2f2;
+  } */
+  h3 {
+    text-align: center;
+  }
+  .adduserform {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 0 auto;
+    width: 50%;
+    max-width: 800px;
+  }
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+  /* input[type="text"],
+  input[type="email"],
+  input[type="password"]  */
+  .adduserinput{
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 2px;
+  }
+  input[type="file"] {
+    margin-bottom: 5px;
+  }
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center;
+  }
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  .button:hover {
+    background-color: #3e8e41;
+  }
